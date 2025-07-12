@@ -1,40 +1,11 @@
 🚨 Deteksi Jarak dengan Arduino, Sensor HC-SR04, dan LED
 Proyek ini merupakan sistem sederhana untuk mendeteksi jarak objek menggunakan sensor ultrasonik HC-SR04 dan indikator LED, dikendalikan oleh Arduino Uno. LED akan menyala ketika objek terdeteksi berada dalam jarak tertentu.
 
-🔧 Komponen yang Digunakan:
-Arduino Uno
-
-Sensor Ultrasonik HC-SR04
-
-LED Merah
-
-Resistor 220Ω
-
-Breadboard dan Kabel Jumper
-
-⚙️ Cara Kerja:
-Sensor HC-SR04 mengirimkan gelombang ultrasonik melalui pin Trig.
-
-Ketika gelombang memantul dari objek, pin Echo menerima sinyal balik.
-
-Arduino menghitung waktu tempuh sinyal untuk menentukan jarak objek.
-
-Jika objek berada lebih dekat dari batas jarak yang ditentukan (misalnya 10 cm), maka LED akan menyala.
-
-Jika tidak, LED tetap mati.
-
-🧠 Konsep yang Dipelajari:
-Input/Output digital dengan Arduino
-
-Pengukuran jarak menggunakan sensor ultrasonik
-
-Penggunaan logika kondisi (if)
-
-Rangkaian dasar dengan LED dan resistor
-
-💡 Aplikasi Sederhana:
-Deteksi keberadaan objek
-
-Sensor parkir mini
-
-Sistem peringatan jarak dekat
+| Kategori                  | Deskripsi                                                                                                                                                                                                                                                                           |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nama Proyek**           | Deteksi Jarak dengan HC-SR04 dan LED Menggunakan Arduino                                                                                                                                                                                                                            |
+| **Tujuan**                | Mendeteksi keberadaan objek pada jarak tertentu dan menyalakan LED sebagai indikator                                                                                                                                                                                                |
+| **Komponen**              | - Arduino Uno  <br> - Sensor HC-SR04  <br> - LED Merah  <br> - Resistor 220Ω  <br> - Breadboard & Jumper                                                                                                                                                                            |
+| **Cara Kerja**            | 1. Sensor HC-SR04 mengirim sinyal ultrasonik dari pin **Trig**. <br> 2. Sinyal dipantulkan oleh objek dan diterima kembali di pin **Echo**. <br> 3. Arduino menghitung waktu tempuh sinyal untuk mengetahui jarak. <br> 4. Jika jarak < ambang batas (misalnya 10 cm), LED menyala. |
+| **Konsep yang Digunakan** | - Input/output digital Arduino  <br> - Sensor ultrasonik  <br> - Logika kondisi (`if`)  <br> - Rangkaian dasar elektronik                                                                                                                                                           |
+| **Aplikasi**              | - Sensor parkir sederhana  <br> - Alarm jarak dekat  <br> - Proyek edukasi Arduino pemula                                                                                                                                                                                           |
